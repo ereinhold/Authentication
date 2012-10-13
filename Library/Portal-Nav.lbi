@@ -1,0 +1,12 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<div class="sidebar1">
+    <ul class="nav">
+      <li><a href="../index.php">Submit Ticket</a></li>
+      <li><a href="../portal-status.php">Ticket Status</a></li>
+      <li><a href="../portal-reports.php">Reports</a></li>
+      <li><a href="../administrators.php">Admin</a></li>
+    </ul>
+    <p><b>Current User</b><br />
+   <?php echo $_SESSION['SESS_FIRST_NAME'];?> <br /><?php echo $_SESSION['SESS_LAST_NAME'];?></p>
+    <!-- end .sidebar1 --></div>
